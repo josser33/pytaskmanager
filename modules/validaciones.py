@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 
 def validar_no_vacio(texto_solicitud):
     """
