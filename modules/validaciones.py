@@ -36,8 +36,6 @@ def buscar_por_id(tareas, mensaje="Ingrese el ID de la tarea: "):
         except ValueError:
             print("[!] Error: Debe ingresar un número entero para el ID.")
 
-from datetime import datetime
-
 def validar_fecha(texto_solicitud):
     """
     Asegura que el usuario ingrese una fecha válida en formato DD/MM/AAAA.
